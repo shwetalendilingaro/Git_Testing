@@ -1,0 +1,204 @@
+{
+  "version": "1.0.0",
+  "diagrams": [
+    {
+      "name": "All tables",
+      "zoomValue": 81.751016423678692,
+      "isDefault": true,
+      "tables": [
+        "Customer",
+        "Date",
+        "Product",
+        "Sales"
+      ],
+      "layout": {
+        "nodes": [
+          {
+            "layedOut": false,
+            "nodeIndex": "Customer",
+            "width": 180,
+            "height": 218,
+            "left": 284.89597167131797,
+            "top": 293.75508021004805
+          },
+          {
+            "layedOut": false,
+            "nodeIndex": "Date",
+            "width": 180,
+            "height": 220,
+            "left": 582.72786501423741,
+            "top": 0
+          },
+          {
+            "layedOut": false,
+            "nodeIndex": "Product",
+            "width": 180,
+            "height": 220,
+            "left": 0,
+            "top": 0
+          },
+          {
+            "layedOut": false,
+            "nodeIndex": "Sales",
+            "width": 180,
+            "height": 220,
+            "left": 318.12770809188976,
+            "top": 0
+          }
+        ],
+        "edges": [
+          {
+            "layedOut": true,
+            "fromNodeIndex": "Sales",
+            "fromNodeItem": "ProductKey",
+            "fromLocation": {
+              "x": 318.12770809188976,
+              "y": 110
+            },
+            "fromShapeRotateAngle": 179.99999999999994,
+            "toNodeIndex": "Product",
+            "toNodeItem": "ProductKey",
+            "toLocation": {
+              "x": 180,
+              "y": 110
+            },
+            "toShapeRotateAngle": 360,
+            "points": [
+              {
+                "x": 300.12770809188976,
+                "y": 110.00000000000001
+              },
+              {
+                "x": 198,
+                "y": 110
+              }
+            ],
+            "crossFilterLocation": {
+              "x": 249.06385404594488,
+              "y": 110
+            },
+            "crossFilterAngle": 0
+          },
+          {
+            "layedOut": true,
+            "fromNodeIndex": "Sales",
+            "fromNodeItem": "CustomerKey",
+            "fromLocation": {
+              "x": 408.127708,
+              "y": 220
+            },
+            "fromShapeRotateAngle": 90,
+            "toNodeIndex": "Customer",
+            "toNodeItem": "CustomerKey",
+            "toLocation": {
+              "x": 374.895972,
+              "y": 293.755080210048
+            },
+            "toShapeRotateAngle": 270,
+            "points": [
+              {
+                "x": 408.127708,
+                "y": 238
+              },
+              {
+                "x": 408.127708,
+                "y": 254.87754
+              },
+              {
+                "x": 406.127708,
+                "y": 256.87754
+              },
+              {
+                "x": 376.895972,
+                "y": 256.87754
+              },
+              {
+                "x": 374.895972,
+                "y": 258.87754
+              },
+              {
+                "x": 374.895972,
+                "y": 275.75508021004805
+              }
+            ],
+            "crossFilterLocation": {
+              "x": 391.51184,
+              "y": 256.87754
+            },
+            "crossFilterAngle": 0
+          },
+          {
+            "layedOut": true,
+            "fromNodeIndex": "Sales",
+            "fromNodeItem": "Delivery Date",
+            "fromLocation": {
+              "x": 498.12770809188976,
+              "y": 99
+            },
+            "fromShapeRotateAngle": 360,
+            "toNodeIndex": "Date",
+            "toNodeItem": "Date",
+            "toLocation": {
+              "x": 582.72786501423741,
+              "y": 99
+            },
+            "toShapeRotateAngle": 180,
+            "points": [
+              {
+                "x": 516.12770809188976,
+                "y": 99
+              },
+              {
+                "x": 564.72786501423741,
+                "y": 99
+              }
+            ],
+            "crossFilterLocation": {
+              "x": 540.42778655306358,
+              "y": 99
+            },
+            "crossFilterAngle": 180
+          },
+          {
+            "layedOut": true,
+            "fromNodeIndex": "Sales",
+            "fromNodeItem": "Order Date",
+            "fromLocation": {
+              "x": 498.12770809188976,
+              "y": 121
+            },
+            "fromShapeRotateAngle": 5.6843418860808015E-14,
+            "toNodeIndex": "Date",
+            "toNodeItem": "Date",
+            "toLocation": {
+              "x": 582.72786501423741,
+              "y": 121
+            },
+            "toShapeRotateAngle": 180,
+            "points": [
+              {
+                "x": 516.12770809188976,
+                "y": 121.00000000000001
+              },
+              {
+                "x": 564.72786501423741,
+                "y": 121
+              }
+            ],
+            "crossFilterLocation": {
+              "x": 540.42778655306358,
+              "y": 121
+            },
+            "crossFilterAngle": 180
+          }
+        ],
+        "boundingBoxPosition": {
+          "x": 0,
+          "y": 0
+        },
+        "boundingBoxWidth": 762.72786501423741,
+        "boundingBoxHeight": 511.75508021004805
+      }
+    }
+  ]
+}
